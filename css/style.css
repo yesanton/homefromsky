@@ -62,13 +62,14 @@ z-index: -1; }
 
 #brand {
 	font-size: 4em;
-    color:lightgray;
+    color:black;
 }
 .title-list li {
 	float:left;
 	padding-right: 12px;
 	list-style: none;
 	font-size: 1.32em;
+    color:black
 }
 section h2 {
 	font-size: 2.5em;
