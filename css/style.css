@@ -62,7 +62,7 @@ z-index: -1; }
 
 #brand {
 	font-size: 4em;
-    color:gainsboro;
+    color:lightgray;
 }
 .title-list li {
 	float:left;
