@@ -331,19 +331,19 @@
           var adress= $("#adress").val();
           var phone= $("#phone").val();
           if(name==""){
-            $('#name').after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Як вас звати?</div>');  
+            $('#name').after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>What is your name?</div>');  
             hasError=true;
           }
           else if(adress=="") {
-              $("#adress").after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Введіть вашу адресу!</div>');
+              $("#adress").after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Please, provide your adress!</div>');
               hasError=true;
           }
           else if(phone.length <10) {
-            $("#phone").after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Введіть ваш мобільний телефон - XXX XX XX XXX</div>');
+            $("#phone").after('<div class="alert alert-danger alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Your phone- XXX XX XX XXX</div>');
             hasError=true;
           }
           if(hasError==false){
-            $("#size").after('<div class="alert alert-success alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Дякую! Ми якнайшвидше зв\'яжемось з вами для підтвердження замовлення!</div>');
+            $("#size").after('<div class="alert alert-success alert-dismissible fade in"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>We are hard working at implementation!</div>');
             $("#order")[0].reset();
             $(".order").fadeOut();
           }
