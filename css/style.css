@@ -38,8 +38,8 @@ z-index: -1; }
 }
 
 .flag {
-	width: 110px;
-	height: 112px;
+	width: 81px;
+	height: 83px;
 	background: url(../flag.png);
 	position:absolute;
 	left:85%;
